@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kebuli Yaman - Grand Opening</title>
+
+    <!-- Bootstrap 5.3 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <img class="navbar-brand" href="#" src="images (1).png" alt="Kebuli yaman">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#couple">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#events">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#rsvp">Reservation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h5 class="mb-4 wow animate__animated animate__fadeInDown">Kami Mengundang Anda Untuk Hadir Di Acara Pembukaan</h5>
+        <h1 class="mb-3 wow animate__animated animate__fadeInUp">Kebuli Yaman</h1>
+        <p class="lead mb-4">December 20, 2025 • Galaxy Bekasi</p>
+        <a href="#rsvp" class="btn btn-light btn-lg">Reservation</a>
+      </div>
+    </section>
+
+    <!-- Music AUDIO -->
+    <audio autoplay>
+      <source src="Sleep Away.mp3" type="audio/ogg">
+      Your browser does not support the audio!
+    </audio>
+
+    <!-- Couple Section -->
+    <section id="couple" class="couple-section">
+      <div class="container">
+        <h2 class="text-center section-title wow animate__animated animate__bounceIn">Why Us</h2>
+        <div class="row">
+          <div class="col-md-5 text-center">
+            <h3>Nasi Kebuli Yaman</h3>
+            <p>
+              Nasi menggunakan Beras Basmati pilihan yang tinggi akan serat, rendah lemak, rendah karbohidrat, rendah kadar glukosa, melancarkan pencernaan, bebas kolesterol, dan mengandung vitamin.
+            </p>
+          </div>
+          <div
+            class="col-md-2 text-center d-flex align-items-center justify-content-center"
+          >
+            <h1 class="display-1"></h1>
+          </div>
+          <div class="col-md-5 text-center">
+            <h3>Kambing bikin kolesterol?</h3>
+            <p>
+              Kolesterol daging kambing, ternyata lebih rendah dibanding daging ayam dan sapi. Setiap 10gram daging kambing, kurang lebih mengandung sekitar 109 kalori. Total kalori ini lebih rendah dibanding daging sapi yang memiliki 250 kalori dan daging ayam dengan total 195 kalori.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-8 mx-auto text-center">
+            <h4 class="mb-4">Mengandung Kapulaga</h4>
+            <p>
+              Nasi Kebuli Yaman mengandung Kapulaga yang memiliki manfaat untuk mengurangi stress, melancarkan pencernaan, mencegah infeksi, menjaga kesehatan tulang, dan baik untuk menjaga daya tahan tubuh.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <section class="countdown">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center mb-5">
+            <h2>Counting Down For the Grand Opening</h2>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-3 col-6 mb-4 mb-md-0">
+            <p class="countdown-number" id="days">244</p>
+            <p class="countdown-text">Days</p>
+          </div>
+          <div class="col-md-3 col-6 mb-4 mb-md-0">
+            <p class="countdown-number" id="hours">18</p>
+            <p class="countdown-text">Hours</p>
+          </div>
+          <div class="col-md-3 col-6">
+            <p class="countdown-number" id="minutes">0</p>
+            <p class="countdown-text">Minutes</p>
+          </div>
+          <div class="col-md-3 col-6">
+            <p class="countdown-number" id="seconds">0</p>
+            <p class="countdown-text">Seconds</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="py-5">
+      <div class="container">
+        <h2 class="text-center section-title">Menu Makanan</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="event-card">
+              <div class="card-body text-center">
+                <img src="Menu/menu 1.png" alt="Menu" width="160px" height="160px">
+                <h4>Paket Kebuli ayam</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="event-card">
+              <div class="card-body text-center">
+                <img src="Menu/menu 2.png" alt="Menu" width="160px" height="160px">
+                <h4>Paket Kebuli Kambing</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="event-card">
+              <div class="card-body text-center">
+                <img src="Menu/menu 3.png" alt="Menu" width="160px" height="160px">
+                <h4>Paket Kebuli Iga Sapi Bakar</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="event-card">
+              <div class="card-body text-center">
+                <img src="Menu/menu 4.png" alt="Menu" width="160px" height="160px">
+                <h4>Paket Kebuli Rabeg</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="event-card">
+              <div class="card-body text-center">
+                <img src="Menu/menu 5.png" alt="Menu" width="160px" height="160px">
+                <h4>Kambing (Per Potong)</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="event-card">
+              <div class="card-body text-center">
+                <img src="Menu/menu 6.png" alt="Menu" width="160px" height="160px">
+                <h4>Ayam (Per Potong)</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="events" class="py-5">
+      <div class="container">
+        <h2 class="text-center section-title">Menu Minuman</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="event-card">
+              <div class="card-body text-center">
+                <img src="Minum/Minum 1.png" alt="Menu" width="160px" height="160px">
+                <h4>Teh Yoman</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="event-card">
+              <div class="card-body text-center">
+                <img src="Minum/Minum 2.png" alt="Menu" width="160px" height="160px">
+                <h4>Paket Kebuli Kambing</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="event-card">
+              <div class="card-body text-center">
+                <img src="Minum/Minum 3.png" alt="Menu" width="160px" height="160px">
+                <h4>Paket Kebuli Iga Sapi Bakar</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="event-card">
+              <div class="card-body text-center">
+                <img src="Minum/Minum 4.png" alt="Menu" width="160px" height="160px">
+                <h4>Paket Kebuli Rabeg</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="event-card">
+              <div class="card-body text-center">
+                <img src="Minum/Minum 5.png" alt="Menu" width="160px" height="160px">
+                <h4>Kambing (Per Potong)</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="event-card">
+              <div class="card-body text-center">
+                <img src="Minum/Minum 6.png" alt="Menu" width="160px" height="160px">
+                <h4>Ayam (Per Potong)</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="event-card">
+              <div class="card-body text-center">
+                <img src="Minum/Minum 7.png" alt="Menu" width="160px" height="160px">
+                <h4>Air Alam 330ML</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="event-card">
+              <div class="card-body text-center">
+                <img src="Minum/Minum 8.png" alt="Menu" width="160px" height="160px">
+                <h4>Air Alam 600ML</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="event-card">
+              <div class="card-body text-center">
+                <img src="Minum/Minum 9.png" alt="Menu" width="160px" height="160px">
+                <h4>Dahagaku Lemon Sereh</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section id="rsvp" class="rsvp-section">
+      <div class="container">
+        <h2 class="text-center section-title">Reservation</h2>
+
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <div class="card shadow">
+              <div class="card-body p-5">
+
+                <form id="rsvpForm">
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <input 
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        placeholder="Your Name"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        placeholder="Your Email"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <select id="attendance" class="form-control">
+                      <option>I Will Attend</option>
+                      <option>I Will Not Attend</option>
+                    </select>
+                  </div>
+                  <div class="mb-4">
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      rows="4"
+                      placeholder="Your Message"
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">
+                    Send Reservation
+                  </button>
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-md-8 mx-auto">
+            <h3 class="text-center">RSVP LIST</h3>
+            <div class="table-responsive">
+              <table class="table table-bordered" id="rsvpTable">
+                <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Attendance</th>
+                  <th>Message</th>
+                  <th colspan="2">Action</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <!-- RSVP value here -->
+              </tbody>
+              </table>
+            </div>
+            <!-- <table class="table  table-responsive" id="rsvpTable">
+            </table> -->
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <h3 class="mb-4">Kebuli Yaman</h3>
+        <p>Thank you for being part of our special day</p>
+        <div class="social-icons mb-4">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p class="mb-0">
+          &copy; 2025 Kebuli Yaman. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap 5.3 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- WOW JS -->
+    <script src="js/wow.js"></script>
+    <script src="js/store.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    
+    <!-- custom JS -->
+    <script>
+      // Countdown Timer
+      const weddingDate = new Date("October 15, 2025 14:00:00").getTime();
+      function updateCountdown() {
+        const now = new Date().getTime();
+        const distance = weddingDate - now;
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor(
+          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        document.getElementById("days").innerText = days;
+        document.getElementById("hours").innerText = hours;
+        document.getElementById("minutes").innerText = minutes;
+        document.getElementById("seconds").innerText = seconds;
+      }
+
+      // Update countdown every second
+      setInterval(updateCountdown, 1000);
+      updateCountdown();
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+          // Close mobile nav menu after click
+          const navToggler = document.querySelector(".navbar-toggler");
+          const navCollapse = document.querySelector(".navbar-collapse");
+          if (navCollapse.classList.contains("show")) {
+            navToggler.click();
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
