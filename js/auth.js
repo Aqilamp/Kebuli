@@ -1,6 +1,6 @@
 const STATIC_CREDENTIAL = {
       username: 'admin',
-      password: 'rahasia',
+      password: 'belikebuli',
     };
 
     const login = (username, password) => {
